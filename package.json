@@ -1,0 +1,31 @@
+{
+  "name": "mlbb-komuniti-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord komuniti MLBB: cari party ranked, topik harian, aktiviti mingguan, top 10 aktif bulanan",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sultanriq/Discord.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sultanriq/Discord/issues"
+  },
+  "homepage": "https://github.com/sultanriq/Discord#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.28.1",
+    "dotenv": "^18.0.9",
+    "node-cron": "^4.6.0"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
